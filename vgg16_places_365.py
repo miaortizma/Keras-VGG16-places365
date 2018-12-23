@@ -21,12 +21,12 @@ from keras.regularizers import l2
 from keras.layers.core import Dropout
 from keras.layers import GlobalAveragePooling2D
 from keras.layers import GlobalMaxPooling2D
-from keras.applications.imagenet_utils import _obtain_input_shape
+from keras_applications.imagenet_utils import _obtain_input_shape
 from keras.engine.topology import get_source_inputs
 from keras.utils.data_utils import get_file
 from keras.utils import layer_utils
 from keras.preprocessing import image
-from keras.applications.imagenet_utils import preprocess_input
+from keras_applications.imagenet_utils import preprocess_input
 
 WEIGHTS_PATH = 'https://github.com/GKalliatakis/Keras-VGG16-places365/releases/download/v1.0/vgg16-places365_weights_tf_dim_ordering_tf_kernels.h5'
 WEIGHTS_PATH_NO_TOP = 'https://github.com/GKalliatakis/Keras-VGG16-places365/releases/download/v1.0/vgg16-places365_weights_tf_dim_ordering_tf_kernels_notop.h5'
